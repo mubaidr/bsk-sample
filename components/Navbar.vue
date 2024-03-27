@@ -3,16 +3,28 @@
     <div class="container d-flex justify-space-between align-center">
       <!-- Tablet view icon -->
       <div class="hidden md:flex lg:hidden">
-        <v-menu :location="location">
+        <v-menu>
           <template v-slot:activator="{ props }">
-            <v-icon v-bind="props" @click="isClicked = !isClicked" size="30" role="button">{{
-              isClicked ? "mdi-close" : "mdi-menu"
-            }}</v-icon>
+            <v-icon
+              v-bind="props"
+              @click="isClicked = !isClicked"
+              size="30"
+              role="button"
+              >{{ isClicked ? "mdi-close" : "mdi-menu" }}</v-icon
+            >
           </template>
 
           <v-list :width="150" :rounded="0" class="bg-black">
-            <v-list-item v-for="navLinkMobile in navLinksMobile" :key="navLinkMobile.id" class="hover:bg-primary">
-              <NuxtLink :to="navLinkMobile.link" class="text-capitalize" @click="isClicked = false">
+            <v-list-item
+              v-for="navLinkMobile in navLinksMobile"
+              :key="navLinkMobile.id"
+              class="hover:bg-primary"
+            >
+              <NuxtLink
+                :to="navLinkMobile.link"
+                class="text-capitalize"
+                @click="isClicked = false"
+              >
                 <v-list-item-title>{{ navLinkMobile.name }}</v-list-item-title>
               </NuxtLink>
             </v-list-item>
@@ -49,34 +61,38 @@
 
       <div class="hidden lg:flex space-x-4">
         <NuxtLink to="/instructor" class="max-h-96"
-          ><v-btn variant="text" :ripple="false" class="text-capitalize font-weight-medium">
+          ><v-btn
+            variant="text"
+            :ripple="false"
+            class="text-capitalize font-weight-medium"
+          >
             <p class="text-primary underline underline-offset-4">Instructor</p>
           </v-btn>
         </NuxtLink>
         <NuxtLink to="/accounts" class="max-h-96"
-          ><v-btn variant="outlined" class="text-capitalize font-weight-medium">Anmeldung</v-btn>
+          ><v-btn variant="outlined" class="text-capitalize font-weight-medium"
+            >Anmeldung</v-btn
+          >
         </NuxtLink>
         <NuxtLink to="/accounts/registrierung">
-          <v-btn class="text-capitalize font-weight-medium" color="primary">Registrierung</v-btn>
+          <v-btn class="text-capitalize font-weight-medium" color="primary"
+            >Registrierung</v-btn
+          >
         </NuxtLink>
       </div>
 
       <!-- Small view icon -->
       <div class="flex md:hidden">
-        <v-menu :location="location">
+        <v-menu>
           <template v-slot:activator="{ props }">
-            <v-icon v-bind="props" @click="isClicked = !isClicked" size="30" role="button">{{
-              isClicked ? "mdi-close" : "mdi-menu"
-            }}</v-icon>
+            <v-icon
+              v-bind="props"
+              @click="isClicked = !isClicked"
+              size="30"
+              role="button"
+              >{{ isClicked ? "mdi-close" : "mdi-menu" }}</v-icon
+            >
           </template>
-
-          <v-list :width="150" :rounded="0" class="bg-black">
-            <v-list-item v-for="navLinkMobile in navLinksMobile" :key="navLinkMobile.id" class="hover:bg-primary">
-              <NuxtLink :to="navLinkMobile.link" class="text-capitalize" @click="isClicked = false">
-                <v-list-item-title>{{ navLinkMobile.name }}</v-list-item-title>
-              </NuxtLink>
-            </v-list-item>
-          </v-list>
         </v-menu>
       </div>
       <!-- Small view icon -->
