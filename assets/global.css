@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;300;400;500;600;700;800&family=Poppins:wght@100;300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .profile-sidebar-btn {
+    background: rgb(51, 0, 0);
+    background: linear-gradient(180deg, rgba(51, 0, 0, 1) 0%, rgba(203, 0, 9, 1) 100%, rgba(236, 0, 10, 1) 100%);
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+.card-bg {
+  background: rgb(51, 0, 0);
+  background: linear-gradient(180deg, rgba(51, 0, 0, 1) 0%, rgba(203, 0, 9, 1) 100%, rgba(236, 0, 10, 1) 100%);
+}
+
+.admin-sidebar {
+  @apply flex items-center space-x-3 px-6 py-3 rounded-md hover:bg-neutral-900 transition duration-100 ease-in-out;
+}
+
+.admin-add-btn {
+  @apply bg-[#EC000A] hover:bg-[#D0010A] transition duration-100 text-white py-[0.90rem] px-6 space-x-3 flex items-center rounded;
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "kursname": "Tampflex",
+    "Datum hinzugefügt": "11/08/2023",
+    "status": "Aktiv",
+    "aktion": 1
+  },
+  {
+    "kursname": "Stronghold",
+    "Datum hinzugefügt": "01/28/2024",
+    "status": "Inaktiv",
+    "aktion": 2
+  },
+  {
+    "kursname": "Konklab",
+    "Datum hinzugefügt": "07/20/2023",
+    "status": "Aktiv",
+    "aktion": 3
+  },
+  {
+    "kursname": "Subin",
+    "Datum hinzugefügt": "11/12/2023",
+    "status": "Im Gange",
+    "aktion": 4
+  },
+  {
+    "kursname": "Voyatouch",
+    "Datum hinzugefügt": "07/17/2023",
+    "status": "Inaktiv",
+    "aktion": 5
+  },
+  {
+    "kursname": "Asoka",
+    "Datum hinzugefügt": "08/14/2023",
+    "status": "Aktiv",
+    "aktion": 6
+  },
+  {
+    "kursname": "Zoolab",
+    "Datum hinzugefügt": "08/03/2023",
+    "status": "Inaktiv",
+    "aktion": 7
+  },
+  {
+    "kursname": "Tres-Zap",
+    "Datum hinzugefügt": "12/21/2023",
+    "status": "Entwurf",
+    "aktion": 8
+  },
+  {
+    "kursname": "Zaam-Dox",
+    "Datum hinzugefügt": "03/21/2024",
+    "status": "Aktiv",
+    "aktion": 9
+  },
+  {
+    "kursname": "Domainer",
+    "Datum hinzugefügt": "02/14/2024",
+    "status": "Inaktiv",
+    "aktion": 10
+  },
+  {
+    "kursname": "Prodder",
+    "Datum hinzugefügt": "08/01/2023",
+    "status": "Entwurf",
+    "aktion": 11
+  },
+  {
+    "kursname": "Duobam",
+    "Datum hinzugefügt": "04/11/2023",
+    "status": "Im Gange",
+    "aktion": 12
+  },
+  {
+    "kursname": "Stim",
+    "Datum hinzugefügt": "04/11/2023",
+    "status": "Entwurf",
+    "aktion": 13
+  },
+  {
+    "kursname": "Vagram",
+    "Datum hinzugefügt": "11/22/2023",
+    "status": "Inaktiv",
+    "aktion": 14
+  },
+  {
+    "kursname": "Temp",
+    "Datum hinzugefügt": "03/11/2024",
+    "status": "Aktiv",
+    "aktion": 15
+  },
+  {
+    "kursname": "Fixflex",
+    "Datum hinzugefügt": "06/17/2023",
+    "status": "Inaktiv",
+    "aktion": 16
+  },
+  {
+    "kursname": "Bytecard",
+    "Datum hinzugefügt": "11/12/2023",
+    "status": "Im Gange",
+    "aktion": 17
+  },
+  {
+    "kursname": "Sub-Ex",
+    "Datum hinzugefügt": "09/26/2023",
+    "status": "Inaktiv",
+    "aktion": 18
+  },
+  {
+    "kursname": "Bitwolf",
+    "Datum hinzugefügt": "05/10/2023",
+    "status": "Aktiv",
+    "aktion": 19
+  },
+  {
+    "kursname": "Sonsing",
+    "Datum hinzugefügt": "07/09/2023",
+    "status": "Entwurf",
+    "aktion": 20
+  },
+  {
+    "kursname": "Tampflex",
+    "Datum hinzugefügt": "03/15/2024",
+    "status": "Aktiv",
+    "aktion": 21
+  },
+  {
+    "kursname": "Redhold",
+    "Datum hinzugefügt": "10/06/2023",
+    "status": "Inaktiv",
+    "aktion": 22
+  },
+  {
+    "kursname": "Kanlam",
+    "Datum hinzugefügt": "05/30/2023",
+    "status": "Aktiv",
+    "aktion": 23
+  },
+  {
+    "kursname": "Quo Lux",
+    "Datum hinzugefügt": "07/11/2023",
+    "status": "Aktiv",
+    "aktion": 24
+  },
+  {
+    "kursname": "Voyatouch",
+    "Datum hinzugefügt": "03/14/2024",
+    "status": "Inaktiv",
+    "aktion": 25
+  },
+  {
+    "kursname": "Job",
+    "Datum hinzugefügt": "10/24/2023",
+    "status": "Aktiv",
+    "aktion": 26
+  },
+  {
+    "kursname": "Home Ing",
+    "Datum hinzugefügt": "02/15/2024",
+    "status": "Inaktiv",
+    "aktion": 27
+  },
+  {
+    "kursname": "Kanlam",
+    "Datum hinzugefügt": "02/07/2024",
+    "status": "Inaktiv",
+    "aktion": 28
+  },
+  {
+    "kursname": "Aerified",
+    "Datum hinzugefügt": "12/30/2023",
+    "status": "Entwurf",
+    "aktion": 29
+  },
+  {
+    "kursname": "Wrapsafe",
+    "Datum hinzugefügt": "06/16/2023",
+    "status": "Im Gange",
+    "aktion": 30
+  },
+  {
+    "kursname": "Rank",
+    "Datum hinzugefügt": "08/13/2023",
+    "status": "Im Gange",
+    "aktion": 31
+  },
+  {
+    "kursname": "Zaam-Dox",
+    "Datum hinzugefügt": "04/28/2023",
+    "status": "Entwurf",
+    "aktion": 32
+  },
+  {
+    "kursname": "Tresom",
+    "Datum hinzugefügt": "06/10/2023",
+    "status": "Im Gange",
+    "aktion": 33
+  },
+  {
+    "kursname": "Temp",
+    "Datum hinzugefügt": "11/09/2023",
+    "status": "Inaktiv",
+    "aktion": 34
+  },
+  {
+    "kursname": "Ronstring",
+    "Datum hinzugefügt": "10/26/2023",
+    "status": "Im Gange",
+    "aktion": 35
+  },
+  {
+    "kursname": "Konklux",
+    "Datum hinzugefügt": "09/02/2023",
+    "status": "Entwurf",
+    "aktion": 36
+  },
+  {
+    "kursname": "Alphazap",
+    "Datum hinzugefügt": "05/21/2023",
+    "status": "Entwurf",
+    "aktion": 37
+  },
+  {
+    "kursname": "Aerified",
+    "Datum hinzugefügt": "03/11/2024",
+    "status": "Im Gange",
+    "aktion": 38
+  },
+  {
+    "kursname": "Aerified",
+    "Datum hinzugefügt": "08/25/2023",
+    "status": "Entwurf",
+    "aktion": 39
+  },
+  {
+    "kursname": "Flexidy",
+    "Datum hinzugefügt": "07/03/2023",
+    "status": "Inaktiv",
+    "aktion": 40
+  }
+]
